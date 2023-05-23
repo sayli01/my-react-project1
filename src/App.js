@@ -1,19 +1,21 @@
-//XML - User defined tag
-//X :: Extended Markup Language
-//in xml, html is flexible , but xml is not flexible
-//XML :: STRICT-(complex than html)
-//XML :: there must be one root tag i.e parent
+//Code Formatting
+//Auto Save /On Save
+//Auto Suggestion
+//Run the program :: npm start-done only once (there is no live server extension)
 
-//code formatting
-//Auto Save
-//Auto suggestion
-//Run the program :: nopm start (there is no live server extension)
+//JSX ::() -written in parenthesis
+//    :: parenthesis is optional if ur html is one liner
+//    :: parenthesis is required for multi-line html
+//    :: rrquired with two tags
 
 function App() {
   return (
     <div>
-      <h1>"!!! Hello World !!!"</h1>
-      <h1>"!!! Welcome !!!"</h1>
+      {" "}
+      <div>
+        <h1>Helloooooo</h1>
+      </div>
+      <div>Mumbai</div>
     </div>
   );
 }
