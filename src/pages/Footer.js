@@ -1,7 +1,9 @@
 function Footer() {
   return (
     <div>
-      <h1>Is this page useful ?</h1>
+      <div className="alert alert-secondary d-flex justify-content-center">
+        <h3>Is this page useful ?</h3>
+      </div>
     </div>
   );
 }
