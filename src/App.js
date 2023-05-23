@@ -3,6 +3,11 @@
 //return JSX (means its a react function)
 //App tag is default-others can be called inside app()
 
+import Header from "./pages/Header";
+import MainBody from "./pages/MainBody";
+import Footer from "./pages/Footer";
+
+//return JSX
 function App() {
   return (
     <div>
@@ -20,29 +25,4 @@ function App() {
   );
 }
 
-//re-usable block of code using header tag
-function Header() {
-  return <h1>Hello Welcome </h1>;
-}
-
-function MainBody() {
-  return (
-    <div>
-      Lorem ipsum is placeholder text commonly used in the graphic, print, and
-      publishing industries for previewing layouts and visual mockups.Lorem
-      ipsum is placeholder text commonly used in the graphic, print, and
-      publishing industries for previewing layouts and visual mockups.
-      <br />.
-      <br />
-    </div>
-  );
-}
-
-function Footer() {
-  return (
-    <div>
-      <h1>This is Footer</h1>
-    </div>
-  );
-}
 export default App;
