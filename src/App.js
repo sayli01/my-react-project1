@@ -1,7 +1,6 @@
 import Header from "./pages/Header";
 import MainBody from "./pages/MainBody";
 import Footer from "./pages/Footer";
-import "bootstrap/dist/css/bootstrap.css";
 
 //return JSX
 function App() {
@@ -17,7 +16,7 @@ function App() {
 function BootstrapDemo() {
   return (
     <div>
-      <h1 class="bg-primary p=3 text-light">Bootstrap Demo</h1>
+      <h1 className="bg-primary p=3 text-light">Bootstrap Demo</h1>
     </div>
   );
 }
