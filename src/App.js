@@ -1,10 +1,12 @@
-//Note - File name. it starts with capital letter
-//Note - File name and function name are same
-//Note - Make the module public
+//JSX +> Javascript and XML
+//Predefined tag :: <h1>,<p>,<div> (predefined tag)
+//User Defined tag :: <App /> / <App></App>
+
+//XML - User defined tag
+//X :: Extended Markup Language
+
 function App() {
-  return "Hello World";
+  return <h1>"!!! Hello World !!!"</h1>;
 }
 
 export default App;
-// we can make one file or function default
-//everything in react is javascript
